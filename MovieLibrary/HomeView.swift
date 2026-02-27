@@ -33,6 +33,7 @@ struct HomeView: View {
                                 }
                         } placeholder: {
                             ProgressView()
+                                .frame(width: geo.size.width, height: geo.size.height)
                         }
                         .frame(width: geo.size.width, height: geo.size.height * 0.85)
                         
